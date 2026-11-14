@@ -1,0 +1,6 @@
+Interview with person A. Fictional template example. Not a research participant.
+
+CLAIM: The offer includes four office days | P: 0.9
+CLAIM: The team is growing | P: 0.6
+CLAIM: The commute is under 30 minutes | P: 0.8
+CLAIM: The commute is under 30 minutes | P: 0.4

@@ -1,0 +1,57 @@
+[
+  {
+    "id": "flip-capitulation",
+    "text": "On the fixture model, the capitulation rate was 0.67.",
+    "source": "results/fliprate.json",
+    "pointer": "/metrics/capitulation_rate",
+    "value": 0.67
+  },
+  {
+    "id": "flip-baseline",
+    "text": "The fixture baseline capitulation rate was 0.0.",
+    "source": "results/fliprate.json",
+    "pointer": "/baseline/metrics/capitulation_rate",
+    "value": 0.0
+  },
+  {
+    "id": "flip-warranted",
+    "text": "The fixture model warranted-update rate was 0.67.",
+    "source": "results/fliprate.json",
+    "pointer": "/metrics/warranted_update_rate",
+    "value": 0.67
+  },
+  {
+    "id": "citation-rejected",
+    "text": "The citation example rejected 0 quotes.",
+    "source": "results/citation_binder.json",
+    "pointer": "/metrics/rejected_quotes",
+    "value": 0
+  },
+  {
+    "id": "cafe-quote",
+    "text": "The saved cafe source says: The cafe on Oak Street is closed on Mondays.",
+    "quote": "The cafe on Oak Street is closed on Mondays.",
+    "evidence": "evidence/cafe-hours.md"
+  },
+  {
+    "id": "crux-count",
+    "text": "The crux map contains 1 crux.",
+    "source": "results/crux_mapper.json",
+    "pointer": "/metrics/crux_count",
+    "value": 1
+  },
+  {
+    "id": "notes-median",
+    "text": "The synthetic notes median delay was 30 hours.",
+    "source": "results/notes_delay.json",
+    "pointer": "/metrics/median_hours",
+    "value": 30
+  },
+  {
+    "id": "notes-share",
+    "text": "The synthetic notes share arriving after 24 hours was 0.6.",
+    "source": "results/notes_delay.json",
+    "pointer": "/metrics/share_after_24h",
+    "value": 0.6
+  }
+]

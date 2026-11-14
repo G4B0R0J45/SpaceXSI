@@ -1,0 +1,16 @@
+---
+description: Keep the sprint report tied to claims.json
+globs: report/**
+alwaysApply: false
+---
+
+# Report
+
+- Required headings: Question, Related Work, Method, Results, Limitations, Dual-Use.
+- The abstract is 150 to 250 words.
+- Each sentence that states a result also appears as `text` in `report/claims.json`.
+- A numeric claim uses `source`, `pointer`, and `value`. The value must equal the JSON at that pointer.
+- A quotation claim uses `quote` and `evidence`. The quote must occur in that file.
+- Describe fixture output and the synthetic notes CSV as demo data.
+- After editing the report or the claims, run `python -m epistemics check`.
+- Paste the finished markdown into the official Apart PDF template. This repository does not replace that template.

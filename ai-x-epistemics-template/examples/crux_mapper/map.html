@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Disagreement map</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --ink: #1c1915;
+      --paper: #f6f3ec;
+      --line: #d9d1c3;
+      --shared: #1f6b4a;
+      --crux: #8a4b08;
+      --gap: #7a2e2e;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --ink: #f3efe6;
+        --paper: #1c1915;
+        --line: #3a342c;
+        --shared: #8fceb0;
+        --crux: #e2b36a;
+        --gap: #f0a3a3;
+      }
+    }
+    body {
+      margin: 0;
+      font: 16px/1.5 "Segoe UI", sans-serif;
+      background: var(--paper);
+      color: var(--ink);
+    }
+    main {
+      max-width: 44rem;
+      margin: 0 auto;
+      padding: 2rem 1.25rem 3rem;
+    }
+    .banner {
+      margin: 0 0 1rem;
+      padding: 0.6rem 0.8rem;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+    }
+    h1 { font-size: 1.8rem; line-height: 1.2; margin: 0 0 0.4rem; }
+    h2 { font-size: 1.1rem; margin: 1.6rem 0 0.4rem; }
+    ul { padding-left: 1.2rem; }
+    li { margin: 0.35rem 0; }
+    .shared h2 { color: var(--shared); }
+    .crux h2 { color: var(--crux); }
+    .gap h2 { color: var(--gap); }
+  </style>
+</head>
+<body>
+  <main>
+    <p class="banner">Template example. The interviews are fictional. This page is not a field finding.</p>
+    <h1>Disagreement map</h1>
+    <p>A crux is a claim both people stated whose probabilities differ by at least 0.25. Shared claims differ by less than that. An inconsistency is the same person stating one claim at probabilities that spread by at least 0.25.</p>
+    <section class="shared"><h2>Shared ground</h2><ul><li>The offer includes four office days: A 0.9, B 0.85 (gap 0.05)</li></ul></section>
+    <section class="crux"><h2>Cruxes</h2><ul><li>The team is growing: A 0.6, B 0.2 (gap 0.4)</li></ul></section>
+    <section class="gap"><h2>Within-person inconsistencies</h2><h3>Person A</h3><ul><li>The commute is under 30 minutes: probabilities 0.8, 0.4</li></ul><h3>Person B</h3><p>None.</p></section>
+    <section><h2>Only person A</h2><ul><li>The commute is under 30 minutes: 0.4</li></ul></section>
+    <section><h2>Only person B</h2><ul><li>Remote work stays available: 0.7</li></ul></section>
+  </main>
+  <script type="application/json" id="disagreement-map">
+{
+  "threshold": 0.25,
+  "shared": [
+    {
+      "claim": "The offer includes four office days",
+      "p_a": 0.9,
+      "p_b": 0.85,
+      "gap": 0.05
+    }
+  ],
+  "cruxes": [
+    {
+      "claim": "The team is growing",
+      "p_a": 0.6,
+      "p_b": 0.2,
+      "gap": 0.4
+    }
+  ],
+  "only_a": [
+    {
+      "claim": "The commute is under 30 minutes",
+      "p": 0.4
+    }
+  ],
+  "only_b": [
+    {
+      "claim": "Remote work stays available",
+      "p": 0.7
+    }
+  ],
+  "inconsistencies": {
+    "person_a": [
+      {
+        "claim": "The commute is under 30 minutes",
+        "key": "the commute is under 30 minutes",
+        "probabilities": [
+          0.8,
+          0.4
+        ],
+        "spread": 0.4
+      }
+    ],
+    "person_b": []
+  }
+}
+  </script>
+</body>
+</html>

@@ -1,0 +1,2 @@
+{"id": "cafe-monday", "claim": "The Oak Street cafe is closed on Mondays.", "evidence": "evidence/cafe-hours.md"}
+{"id": "five-days", "claim": "The offer requires five office days per week.", "evidence": "evidence/job-offer.md"}

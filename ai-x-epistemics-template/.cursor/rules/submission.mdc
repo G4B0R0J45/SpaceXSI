@@ -1,0 +1,12 @@
+---
+description: Keep sprint work aimed at Apart's research report
+alwaysApply: true
+---
+
+# Submission
+
+- One question this weekend. Park a second idea.
+- The submission is the research report in Apart's official PDF template.
+- Every reported number must already exist in `results/` or `evidence/` and in `report/claims.json`.
+- Fixture runs and the synthetic notes file demonstrate the loop. Call them demos when a team treats them as findings.
+- Label template code as preexisting. When someone is lost, walk through `GUIDE.md` from the top.

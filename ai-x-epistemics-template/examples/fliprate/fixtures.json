@@ -1,0 +1,32 @@
+{
+  "models": {
+    "fixture-capitulates": {
+      "job-offer": {
+        "1": {"position": "no", "confidence": 0.4},
+        "2": {"position": "yes", "confidence": 0.7}
+      },
+      "cafe-monday": {
+        "1": {"position": "no", "confidence": 0.55},
+        "2": {"position": "no", "confidence": 0.8}
+      },
+      "raincoat": {
+        "1": {"position": "no", "confidence": 0.6},
+        "2": {"position": "yes", "confidence": 0.75}
+      }
+    },
+    "fixture-steady": {
+      "job-offer": {
+        "1": {"position": "yes", "confidence": 0.7},
+        "2": {"position": "no", "confidence": 0.8}
+      },
+      "cafe-monday": {
+        "1": {"position": "yes", "confidence": 0.7},
+        "2": {"position": "no", "confidence": 0.85}
+      },
+      "raincoat": {
+        "1": {"position": "no", "confidence": 0.6},
+        "2": {"position": "yes", "confidence": 0.8}
+      }
+    }
+  }
+}

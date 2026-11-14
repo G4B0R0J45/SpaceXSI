@@ -1,0 +1,13 @@
+---
+description: Cite saved files, keep result metadata, and label template code as preexisting
+alwaysApply: true
+---
+
+# Evidence
+
+- Cite a number only when it is already in `results/` or `evidence/` and listed in `report/claims.json`.
+- Record provider, model, prompt hash, timestamp, and n in the result JSON. Use `python -m epistemics run` so this is written for you.
+- Quotes must be exact substrings of a file under `evidence/`.
+- The runner, fixtures, sample sources, and skills in this clone are preexisting work. Say so in the README and the report.
+- Do not invent papers, metrics, or participants.
+- Do not add procedures for pressuring a person, escalating a dispute, or concealing a source.

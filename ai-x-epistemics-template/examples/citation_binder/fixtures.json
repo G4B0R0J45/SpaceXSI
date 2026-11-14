@@ -1,0 +1,10 @@
+{
+  "cafe-monday": {
+    "verdict": "support",
+    "quote": "The cafe on Oak Street is closed on Mondays."
+  },
+  "five-days": {
+    "verdict": "contradict",
+    "quote": "The written offer requires three office days per week, not five."
+  }
+}

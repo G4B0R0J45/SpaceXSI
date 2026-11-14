@@ -1,0 +1,7 @@
+# SYNTHETIC: not Community Notes data. Do not report these rows as a finding.
+note_id,post_at,note_at,synthetic
+n1,2026-01-01T00:00:00Z,2026-01-01T06:00:00Z,true
+n2,2026-01-01T00:00:00Z,2026-01-01T12:00:00Z,true
+n3,2026-01-01T00:00:00Z,2026-01-02T06:00:00Z,true
+n4,2026-01-01T00:00:00Z,2026-01-03T00:00:00Z,true
+n5,2026-01-01T00:00:00Z,2026-01-04T00:00:00Z,true

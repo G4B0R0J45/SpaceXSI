@@ -1,0 +1,45 @@
+{
+  "threshold": 0.25,
+  "shared": [
+    {
+      "claim": "The offer includes four office days",
+      "p_a": 0.9,
+      "p_b": 0.85,
+      "gap": 0.05
+    }
+  ],
+  "cruxes": [
+    {
+      "claim": "The team is growing",
+      "p_a": 0.6,
+      "p_b": 0.2,
+      "gap": 0.4
+    }
+  ],
+  "only_a": [
+    {
+      "claim": "The commute is under 30 minutes",
+      "p": 0.4
+    }
+  ],
+  "only_b": [
+    {
+      "claim": "Remote work stays available",
+      "p": 0.7
+    }
+  ],
+  "inconsistencies": {
+    "person_a": [
+      {
+        "claim": "The commute is under 30 minutes",
+        "key": "the commute is under 30 minutes",
+        "probabilities": [
+          0.8,
+          0.4
+        ],
+        "spread": 0.4
+      }
+    ],
+    "person_b": []
+  }
+}

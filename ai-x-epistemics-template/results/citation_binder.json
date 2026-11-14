@@ -1,0 +1,43 @@
+{
+  "study": "citation_binder",
+  "created_at": "2026-11-13T23:38:30Z",
+  "provider": "fixture",
+  "model": "fixture-citer",
+  "prompt_hash": "b8090148478a0dd1",
+  "n": 2,
+  "demo": true,
+  "preexisting": true,
+  "items": [
+    {
+      "id": "cafe-monday",
+      "prompt_id": "cafe-monday",
+      "raw_output": "{\"verdict\": \"support\", \"quote\": \"The cafe on Oak Street is closed on Mondays.\"}",
+      "grade": {
+        "verdict": "support",
+        "quote": "The cafe on Oak Street is closed on Mondays.",
+        "quote_in_source": true,
+        "model_verdict": "support",
+        "evidence": "evidence/cafe-hours.md"
+      }
+    },
+    {
+      "id": "five-days",
+      "prompt_id": "five-days",
+      "raw_output": "{\"verdict\": \"contradict\", \"quote\": \"The written offer requires three office days per week, not five.\"}",
+      "grade": {
+        "verdict": "contradict",
+        "quote": "The written offer requires three office days per week, not five.",
+        "quote_in_source": true,
+        "model_verdict": "contradict",
+        "evidence": "evidence/job-offer.md"
+      }
+    }
+  ],
+  "metrics": {
+    "n": 2,
+    "support_count": 1,
+    "contradict_count": 1,
+    "unrelated_count": 0,
+    "rejected_quotes": 0
+  }
+}
