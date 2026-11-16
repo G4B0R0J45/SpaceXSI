@@ -824,6 +824,10 @@ def metrics_for(
         metrics["human_agreement"] = with_human["agreement"]
         metrics["human_agreement_binary"] = with_human["agreement_binary"]
         metrics["human_kappa_binary"] = with_human["kappa_binary"]
+        primary_ids = {item["id"] for item in premises if item["kind"] == "unsupported" and item.get("primary", True)}
+        on_primary = agreement([row for row in rows if row["premise"] in primary_ids], human["rows"])
+        metrics["n_human_primary"] = on_primary["n"]
+        metrics["human_agreement_binary_primary"] = on_primary["agreement_binary"]
     return metrics
 
 

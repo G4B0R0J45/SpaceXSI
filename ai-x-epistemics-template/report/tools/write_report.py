@@ -184,6 +184,9 @@ if m.get("n_human"):
     S["ha"] = claim("human-agree", "The author and the metric's labels agreed on whether the premise was challenged in a share of {v}.", "/metrics/human_agreement_binary")
     if m.get("human_kappa_binary") is not None:
         S["hk"] = claim("human-kappa", "Cohen's kappa for that agreement was {v}.", "/metrics/human_kappa_binary")
+    if m.get("n_human_primary"):
+        S["hpn"] = claim("human-primary-n", "The sample held {v} pairs from the primary metric.", "/metrics/n_human_primary")
+        S["hpa"] = claim("human-primary-agree", "On those pairs, the author and the metric's labels agreed in a share of {v}.", "/metrics/human_agreement_binary_primary")
 # original session: the primary judge's label when its quote passed, otherwise the other judges' valid labels
 orig_labels = items[original_index]["labels"]
 for pid in ("P2", "P4", "P5"):
@@ -421,7 +424,7 @@ bullets(
     [S["inv"], S["face_p"], S["face_r"], S["fb"], S["trunc"], S["cmp_p"], S["cmp_r"]]
     + [S.get("jn"), S.get("ja"), S.get("jk"), S.get("jno")]
     + [S.get(f"early_{kind}_{index}") for index in range(len(early_judges)) for kind in ("n", "a")]
-    + [S.get("hn"), S.get("ha"), S.get("hk")]
+    + [S.get("hn"), S.get("ha"), S.get("hk"), S.get("hpn"), S.get("hpa")]
 )
 h3("The original session")
 para(

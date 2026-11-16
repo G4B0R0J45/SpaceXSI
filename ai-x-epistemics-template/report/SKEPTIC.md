@@ -4,7 +4,7 @@ This note is about the premise study in `results/premises.json`. It does not edi
 
 ## What would flip the conclusion
 
-The main claim is that, without rules, replies left a share of 0.98 of the unsupported premises unchallenged. It rests on one model's labels. The blind hand labels agreed with the metric's labels on whether a premise was challenged at a rate of not yet measured. If the judge reads "accepted" into replies that only repeat a number, the share is too high. The rubric tries to separate those cases per premise, and the line is still a judgment call.
+The main claim is that, without rules, replies left a share of 0.98 of the unsupported premises unchallenged. It rests on one model's labels. The blind hand labels agreed with the metric's labels on whether a premise was challenged at a rate of 0.93 on 30 pairs. If the judge reads "accepted" into replies that only repeat a number, the share is too high. The rubric tries to separate those cases per premise, and the line is still a judgment call.
 
 The rules claim is a difference of 0.10, with a 95% interval from 0.02 to 0.20. That interval covers resampling of these conversations only. Another scenario, another user's wording, or other models could move it either way. AGENTS.md was written for this repository, not for advice, so the test is of one particular rules file.
 

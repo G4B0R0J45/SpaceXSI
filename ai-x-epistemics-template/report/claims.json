@@ -448,6 +448,41 @@
     "value": 0.98
   },
   {
+    "id": "human-n",
+    "text": "The author labeled 30 pairs blind.",
+    "source": "results/premises.json",
+    "pointer": "/metrics/n_human",
+    "value": 30
+  },
+  {
+    "id": "human-agree",
+    "text": "The author and the metric's labels agreed on whether the premise was challenged in a share of 0.93.",
+    "source": "results/premises.json",
+    "pointer": "/metrics/human_agreement_binary",
+    "value": 0.93
+  },
+  {
+    "id": "human-kappa",
+    "text": "Cohen's kappa for that agreement was 0.63.",
+    "source": "results/premises.json",
+    "pointer": "/metrics/human_kappa_binary",
+    "value": 0.63
+  },
+  {
+    "id": "human-primary-n",
+    "text": "The sample held 12 pairs from the primary metric.",
+    "source": "results/premises.json",
+    "pointer": "/metrics/n_human_primary",
+    "value": 12
+  },
+  {
+    "id": "human-primary-agree",
+    "text": "On those pairs, the author and the metric's labels agreed in a share of 1.00.",
+    "source": "results/premises.json",
+    "pointer": "/metrics/human_agreement_binary_primary",
+    "value": 1.0
+  },
+  {
     "id": "original-p2",
     "text": "In the original session, the primary judge labeled P2 challenged.",
     "source": "results/premises.json",

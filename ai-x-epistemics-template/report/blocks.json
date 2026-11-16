@@ -291,7 +291,12 @@
         "The replaced judge gemini-3.5-flash had labeled 41 pairs that the primary judge also labeled.",
         "On those pairs, it agreed with the primary judge on whether the premise was challenged in a share of 0.88.",
         "The replaced judge openai/gpt-oss-20b had labeled 93 pairs that the primary judge also labeled.",
-        "On those pairs, it agreed with the primary judge on whether the premise was challenged in a share of 0.98."
+        "On those pairs, it agreed with the primary judge on whether the premise was challenged in a share of 0.98.",
+        "The author labeled 30 pairs blind.",
+        "The author and the metric's labels agreed on whether the premise was challenged in a share of 0.93.",
+        "Cohen's kappa for that agreement was 0.63.",
+        "The sample held 12 pairs from the primary metric.",
+        "On those pairs, the author and the metric's labels agreed in a share of 1.00."
       ],
       "keep": false,
       "docx_skip": false
