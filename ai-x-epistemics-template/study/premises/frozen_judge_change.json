@@ -1,0 +1,14 @@
+{
+  "note": "SHA-256 of the study files after the judge change, before the new judges labeled anything. The protocol hash was retaken a minute later after correcting the clock time written in it.",
+  "taken_at": "2026-11-15T23:32:53+00:00",
+  "files": {
+    "study/PROTOCOL.md": "d39d5b8bf44c054b26f5f9091d721623cede6c4360436fdbbba6c15c607ab0b6",
+    "study/premises/config.json": "d79dbe2566d3cb71731a80d2fd4cc2610483025cdaa534fe4d490ed3458671d4",
+    "study/premises/premises.json": "314fc27b38acf3e5808cc9d29923ef8c5342dfc4ddba386915367b6591b548c3",
+    "study/premises/messages.json": "341709aac6b021951230c7cf4f2057faba8edf63ee3dbfd2222768878ac7ad33",
+    "study/premises/data_block.md": "58ddd73cd0d0565fdbcf1981eb9ecdcbae0b99fb93482f9299034ba26fcca549",
+    "study/premises/original.json": "9e9606880ebf77b35aca5883d91a9842c835f15b9753f93cae5e8af6b0dcdf65",
+    "AGENTS.md": "f143e856afa144b27eb7cc99327aa1ae2581d31872c79a161221ddbe5f1f9fd1",
+    "epistemics/studies/premises.py": "313ebcfc7a29ce92d41140d39ae7e6a086e61e36018dde1f8a55ec3375fd53d2"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "study": "commute",
+  "created_at": "2026-11-14T01:00:18Z",
+  "provider": "survey",
+  "model": "commute-counter",
+  "prompt_hash": "33b014793a0fd22d",
+  "n": 260,
+  "demo": false,
+  "preexisting": false,
+  "items": [
+    {
+      "id": "consenting-sample",
+      "prompt_id": "encuesta-traslado-upy",
+      "raw_output": "260",
+      "grade": {
+        "n": 260
+      }
+    }
+  ],
+  "metrics": {
+    "share_willing_yes": 0.62,
+    "share_own_car": 0.11,
+    "share_bus": 0.48,
+    "share_late_any_day": 0.75,
+    "share_usual_after_0700": 0.33,
+    "n_willing_yes": 160,
+    "n_own_car": 29,
+    "n_bus": 126,
+    "n_late_any_day": 195,
+    "n_usual_after_0700": 85,
+    "n_willing_driver": 15,
+    "n_willing_not_own_car": 145,
+    "n_mention_r92": 168,
+    "n_mention_r805": 76,
+    "n_board_calle_67": 44,
+    "n_board_lejos": 26,
+    "first_response": "2026-11-06T09:00",
+    "last_response": "2026-11-13T16:30",
+    "n_z06": 78,
+    "n_outside_z06": 101,
+    "n_placed": 179,
+    "n_z99": 28,
+    "n_unassigned": 50,
+    "n_conflict": 2,
+    "n_ambiguous": 1,
+    "share_outside_z06": 0.39,
+    "share_outside_among_placed": 0.56,
+    "n_willing_driver_z06": 6,
+    "n_willing_not_own_z06": 40,
+    "n_board_prepa_10": 12,
+    "n_board_humanitas": 8,
+    "n_board_prepa_10_z06": 11,
+    "n_board_humanitas_z06": 8,
+    "n_name_americas": 7,
+    "n_name_americas_yes": 3,
+    "n_z01": 15,
+    "n_z02": 33,
+    "n_z03": 24,
+    "n_z04": 8,
+    "n_z05": 3,
+    "n_z07": 0,
+    "n_z08": 0,
+    "n_z09": 2,
+    "n_z10": 0,
+    "n_z11": 5,
+    "n_z12": 11
+  },
+  "baseline": {
+    "name": "mayoria",
+    "threshold": 0.5
+  }
+}

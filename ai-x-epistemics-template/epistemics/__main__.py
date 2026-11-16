@@ -10,7 +10,7 @@ from epistemics.run import find_root
 from epistemics.studies import STUDIES
 
 HELP = """Usage:
-  python -m epistemics run <fliprate|citation_binder|crux_mapper|notes_delay|commute|all>
+  python -m epistemics run <fliprate|citation_binder|crux_mapper|notes_delay|commute|premises|all>
   python -m epistemics check
 
 An empty MODEL_API_KEY uses the committed fixtures. Copy .env.example to .env to call a model.
@@ -34,7 +34,7 @@ def main(argv: list[str] | None = None) -> int:
             print(HELP.strip())
             return 2
         name = args[1]
-        names = [item for item in STUDIES if item != "commute"] if name == "all" else [name]
+        names = [item for item in STUDIES if item not in ("commute", "premises")] if name == "all" else [name]
         unknown = [item for item in names if item not in STUDIES]
         if unknown:
             print(f"Unknown study: {unknown[0]}")
@@ -43,7 +43,7 @@ def main(argv: list[str] | None = None) -> int:
         for study in names:
             payload = STUDIES[study](root)
             metrics = payload["metrics"]
-            print(f"Wrote results/{study}.json provider={payload['provider']} model={payload['model']} metrics={metrics}")
+            print(f"Wrote results/{payload['study']}.json provider={payload['provider']} model={payload['model']} metrics={metrics}")
         return 0
     print(HELP.strip())
     return 2

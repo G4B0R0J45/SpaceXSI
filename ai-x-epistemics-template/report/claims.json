@@ -1,57 +1,286 @@
 [
   {
-    "id": "flip-capitulation",
-    "text": "On the fixture model, the capitulation rate was 0.67.",
-    "source": "results/fliprate.json",
-    "pointer": "/metrics/capitulation_rate",
+    "id": "commute-n",
+    "text": "In the consenting sample, n was 260.",
+    "source": "results/commute.json",
+    "pointer": "/n",
+    "value": 260
+  },
+  {
+    "id": "commute-term-0",
+    "text": "The count in cuatrimestre 0 was 124.",
+    "source": "results/commute.json",
+    "pointer": "/metrics/n_term_0",
+    "value": 124
+  },
+  {
+    "id": "commute-term-3",
+    "text": "The count in the third cuatrimestre was 136.",
+    "source": "results/commute.json",
+    "pointer": "/metrics/n_term_3",
+    "value": 136
+  },
+  {
+    "id": "commute-first",
+    "text": "The first saved response timestamp was 2026-11-06T09:00.",
+    "source": "results/commute.json",
+    "pointer": "/metrics/first_response",
+    "value": "2026-11-06T09:00"
+  },
+  {
+    "id": "commute-last",
+    "text": "The last saved response timestamp was 2026-11-13T16:30.",
+    "source": "results/commute.json",
+    "pointer": "/metrics/last_response",
+    "value": "2026-11-13T16:30"
+  },
+  {
+    "id": "survey-question",
+    "text": "The saved survey asks: Si hubiera un punto de encuentro cerca de donde sales para compartir el traslado con otros estudiantes de la UPY, ¿lo usarías?",
+    "quote": "Si hubiera un punto de encuentro cerca de donde sales para compartir el traslado con otros estudiantes de la UPY, ¿lo usarías?",
+    "evidence": "evidence/encuesta-traslado-upy.md"
+  },
+  {
+    "id": "commute-willing-share",
+    "text": "The share who said they would use a meeting point was 0.62.",
+    "source": "results/commute.json",
+    "pointer": "/metrics/share_willing_yes",
+    "value": 0.62
+  },
+  {
+    "id": "commute-willing-n",
+    "text": "The count who said yes was 160.",
+    "source": "results/commute.json",
+    "pointer": "/metrics/n_willing_yes",
+    "value": 160
+  },
+  {
+    "id": "commute-ci-low",
+    "text": "The lower end of the 95% Wilson interval for that share was 0.55.",
+    "source": "results/commute.json",
+    "pointer": "/metrics/willing_yes_ci95_low",
+    "value": 0.55
+  },
+  {
+    "id": "commute-ci-high",
+    "text": "The upper end of that interval was 0.67.",
+    "source": "results/commute.json",
+    "pointer": "/metrics/willing_yes_ci95_high",
     "value": 0.67
   },
   {
-    "id": "flip-baseline",
-    "text": "The fixture baseline capitulation rate was 0.0.",
-    "source": "results/fliprate.json",
-    "pointer": "/baseline/metrics/capitulation_rate",
-    "value": 0.0
+    "id": "commute-baseline",
+    "text": "The baseline threshold for a majority claim was 0.5.",
+    "source": "results/commute.json",
+    "pointer": "/baseline/threshold",
+    "value": 0.5
   },
   {
-    "id": "flip-warranted",
-    "text": "The fixture model warranted-update rate was 0.67.",
-    "source": "results/fliprate.json",
-    "pointer": "/metrics/warranted_update_rate",
-    "value": 0.67
+    "id": "commute-maybe-share",
+    "text": "The share who answered maybe was 0.28.",
+    "source": "results/commute.json",
+    "pointer": "/metrics/share_willing_maybe",
+    "value": 0.28
   },
   {
-    "id": "citation-rejected",
-    "text": "The citation example rejected 0 quotes.",
-    "source": "results/citation_binder.json",
-    "pointer": "/metrics/rejected_quotes",
-    "value": 0
+    "id": "commute-maybe-n",
+    "text": "The count who answered maybe was 73.",
+    "source": "results/commute.json",
+    "pointer": "/metrics/n_willing_maybe",
+    "value": 73
   },
   {
-    "id": "cafe-quote",
-    "text": "The saved cafe source says: The cafe on Oak Street is closed on Mondays.",
-    "quote": "The cafe on Oak Street is closed on Mondays.",
-    "evidence": "evidence/cafe-hours.md"
+    "id": "commute-no-share",
+    "text": "The share who answered no was 0.10.",
+    "source": "results/commute.json",
+    "pointer": "/metrics/share_willing_no",
+    "value": 0.1
   },
   {
-    "id": "crux-count",
-    "text": "The crux map contains 1 crux.",
-    "source": "results/crux_mapper.json",
-    "pointer": "/metrics/crux_count",
-    "value": 1
+    "id": "commute-no-n",
+    "text": "The count who answered no was 27.",
+    "source": "results/commute.json",
+    "pointer": "/metrics/n_willing_no",
+    "value": 27
   },
   {
-    "id": "notes-median",
-    "text": "The synthetic notes median delay was 30 hours.",
-    "source": "results/notes_delay.json",
-    "pointer": "/metrics/median_hours",
-    "value": 30
+    "id": "commute-driver",
+    "text": "The count with their own car who said yes was 15.",
+    "source": "results/commute.json",
+    "pointer": "/metrics/n_willing_driver",
+    "value": 15
   },
   {
-    "id": "notes-share",
-    "text": "The synthetic notes share arriving after 24 hours was 0.6.",
-    "source": "results/notes_delay.json",
-    "pointer": "/metrics/share_after_24h",
-    "value": 0.6
+    "id": "commute-not-own",
+    "text": "The count without their own car who said yes was 145.",
+    "source": "results/commute.json",
+    "pointer": "/metrics/n_willing_not_own_car",
+    "value": 145
+  },
+  {
+    "id": "commute-willing-bus",
+    "text": "The count who usually take a bus or combi and said yes was 86.",
+    "source": "results/commute.json",
+    "pointer": "/metrics/n_willing_bus",
+    "value": 86
+  },
+  {
+    "id": "commute-willing-passenger",
+    "text": "The count who are usually driven by someone else and said yes was 38.",
+    "source": "results/commute.json",
+    "pointer": "/metrics/n_willing_passenger",
+    "value": 38
+  },
+  {
+    "id": "commute-own-share",
+    "text": "The share who usually drive their own car was 0.11.",
+    "source": "results/commute.json",
+    "pointer": "/metrics/share_own_car",
+    "value": 0.11
+  },
+  {
+    "id": "commute-bus-share",
+    "text": "The share who usually take a bus or combi was 0.48.",
+    "source": "results/commute.json",
+    "pointer": "/metrics/share_bus",
+    "value": 0.48
+  },
+  {
+    "id": "commute-late",
+    "text": "The share who arrived after 07:00 on at least one day last week was 0.75.",
+    "source": "results/commute.json",
+    "pointer": "/metrics/share_late_any_day",
+    "value": 0.75
+  },
+  {
+    "id": "commute-usual-after",
+    "text": "The share whose usual arrival is after 07:00 was 0.33.",
+    "source": "results/commute.json",
+    "pointer": "/metrics/share_usual_after_0700",
+    "value": 0.33
+  },
+  {
+    "id": "commute-n-z06",
+    "text": "The count placed in Z06 was 78.",
+    "source": "results/commute.json",
+    "pointer": "/metrics/n_z06",
+    "value": 78
+  },
+  {
+    "id": "commute-z06-share",
+    "text": "The share placed in Z06 was 0.30.",
+    "source": "results/commute.json",
+    "pointer": "/metrics/share_z06",
+    "value": 0.3
+  },
+  {
+    "id": "commute-n-outside",
+    "text": "The count placed outside Z06 was 109.",
+    "source": "results/commute.json",
+    "pointer": "/metrics/n_outside_z06",
+    "value": 109
+  },
+  {
+    "id": "commute-outside",
+    "text": "The share placed outside Z06, over the full consenting sample, was 0.42.",
+    "source": "results/commute.json",
+    "pointer": "/metrics/share_outside_z06",
+    "value": 0.42
+  },
+  {
+    "id": "commute-n-placed",
+    "text": "The count placed in a zone from Z01 to Z12 was 187.",
+    "source": "results/commute.json",
+    "pointer": "/metrics/n_placed",
+    "value": 187
+  },
+  {
+    "id": "commute-outside-placed",
+    "text": "Among placed rows, the share outside Z06 was 0.58.",
+    "source": "results/commute.json",
+    "pointer": "/metrics/share_outside_among_placed",
+    "value": 0.58
+  },
+  {
+    "id": "commute-no-zone-n",
+    "text": "The count with no zone from Z01 to Z12 was 73.",
+    "source": "results/commute.json",
+    "pointer": "/metrics/n_no_zone",
+    "value": 73
+  },
+  {
+    "id": "commute-no-zone-share",
+    "text": "The share with no zone from Z01 to Z12 was 0.28.",
+    "source": "results/commute.json",
+    "pointer": "/metrics/share_no_zone",
+    "value": 0.28
+  },
+  {
+    "id": "commute-z99",
+    "text": "The count who chose another municipality was 28.",
+    "source": "results/commute.json",
+    "pointer": "/metrics/n_z99",
+    "value": 28
+  },
+  {
+    "id": "commute-unassigned",
+    "text": "The count with no usable neighborhood or postal code was 42.",
+    "source": "results/commute.json",
+    "pointer": "/metrics/n_unassigned",
+    "value": 42
+  },
+  {
+    "id": "commute-outside-upper",
+    "text": "If every row without a zone were outside Z06, the share outside Z06 would be 0.70.",
+    "source": "results/commute.json",
+    "pointer": "/metrics/share_outside_z06_upper",
+    "value": 0.7
+  },
+  {
+    "id": "commute-caucel-mentions",
+    "text": "The count of rows not placed in Z06 that mention Caucel or its postal code was 11.",
+    "source": "results/commute.json",
+    "pointer": "/metrics/n_not_z06_mention_caucel",
+    "value": 11
+  },
+  {
+    "id": "commute-driver-z06",
+    "text": "The count in Z06 with their own car who said yes was 6.",
+    "source": "results/commute.json",
+    "pointer": "/metrics/n_willing_driver_z06",
+    "value": 6
+  },
+  {
+    "id": "commute-not-own-z06",
+    "text": "The count in Z06 without their own car who said yes was 40.",
+    "source": "results/commute.json",
+    "pointer": "/metrics/n_willing_not_own_z06",
+    "value": 40
+  },
+  {
+    "id": "zone-oneday",
+    "text": "The saved zone note says: Es una muestra de un solo día, un punto por zona y horarios programados por Maps (no tiempo real).",
+    "quote": "Es una muestra de un solo día, un punto por zona y horarios programados por Maps (no tiempo real).",
+    "evidence": "evidence/macrozonas-upy.md"
+  },
+  {
+    "id": "survey-term-option",
+    "text": "The last term option on the form reads: 6.º cuatrimestre u otro (la encuesta no es para ti; gracias)",
+    "quote": "6.º cuatrimestre u otro (la encuesta no es para ti; gracias)",
+    "evidence": "evidence/encuesta-traslado-upy.md"
+  },
+  {
+    "id": "first-outside",
+    "text": "In the first submitted version, the share placed outside Z06 was 0.39.",
+    "source": "results/commute_first_submission.json",
+    "pointer": "/metrics/share_outside_z06",
+    "value": 0.39
+  },
+  {
+    "id": "first-outside-placed",
+    "text": "In that version, the share outside Z06 among placed rows was 0.56.",
+    "source": "results/commute_first_submission.json",
+    "pointer": "/metrics/share_outside_among_placed",
+    "value": 0.56
   }
 ]

@@ -8,3 +8,8 @@
 **/build/
 **/.env
 !**/.env.example
+
+# Raw survey responses and personal files: the team keeps them, the repository never publishes them
+Encuesta*Traslado*
+*.pkpass
+ai-x-epistemics-template/study/sources/encuesta_traslado_upy.csv

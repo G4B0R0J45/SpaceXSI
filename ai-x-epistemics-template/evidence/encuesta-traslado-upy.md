@@ -2,9 +2,9 @@
 
 Saved: 2026-11-13.
 
-Source file: `Encuesta · Traslado matutino al campus UPY.csv`, copied into `study/sources/encuesta_traslado_upy.csv`. The copy keeps the original cells. Responses run from 6 November 2026 through 13 November 2026. That collection is prior work. The count written during the sprint is `results/commute.json`.
+Source file: `Encuesta · Traslado matutino al campus UPY.csv`, copied into `study/sources/encuesta_traslado_upy.csv`. The copy keeps the original cells. The raw file is not published: it was removed from the public repository on 15 November 2026 and stays with the team. Responses run from 6 November 2026 through 13 November 2026. That collection is prior work. The count written during the sprint is `results/commute.json`.
 
-The first column asks for acceptance. One row answered no and stays out of the sample. The published metrics do not list a person, a neighborhood, or the optional sex field.
+The first column asks for acceptance. One row answered no and stays out of the sample. One more row chose the last term option, which tells the student the survey is not for them, and stays out too. The published metrics do not list a person, a neighborhood, or the optional sex field.
 
 `R92.pdf` and `R805.pdf` have no text layer, so this file does not quote them.
 
@@ -14,7 +14,15 @@ The first column asks for acceptance. One row answered no and stays out of the s
 
 Sí, acepto
 
+¿En qué cuatrimestre estás?
+
+Cuatrimestre 0
+
+6.º cuatrimestre u otro (la encuesta no es para ti; gracias)
+
 Si hubiera un punto de encuentro cerca de donde sales para compartir el traslado con otros estudiantes de la UPY, ¿lo usarías?
+
+Tal vez
 
 ¿Cómo llegas normalmente al campus?
 

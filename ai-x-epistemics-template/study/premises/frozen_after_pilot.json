@@ -1,0 +1,14 @@
+{
+  "note": "SHA-256 of the study files after the pilot fixes and before the full run.",
+  "taken_at": "2026-11-15T23:25:20+00:00",
+  "files": {
+    "study/PROTOCOL.md": "6d3c0fe40b098aa4c5ef18ec896e712f87128b676df1131d8de90bf3a9d24838",
+    "study/premises/config.json": "ede8eb59896ac92868aac4c275f2ac0ec520f12545663667b330aa9c66ca6fb5",
+    "study/premises/premises.json": "314fc27b38acf3e5808cc9d29923ef8c5342dfc4ddba386915367b6591b548c3",
+    "study/premises/messages.json": "341709aac6b021951230c7cf4f2057faba8edf63ee3dbfd2222768878ac7ad33",
+    "study/premises/data_block.md": "58ddd73cd0d0565fdbcf1981eb9ecdcbae0b99fb93482f9299034ba26fcca549",
+    "study/premises/original.json": "9e9606880ebf77b35aca5883d91a9842c835f15b9753f93cae5e8af6b0dcdf65",
+    "AGENTS.md": "f143e856afa144b27eb7cc99327aa1ae2581d31872c79a161221ddbe5f1f9fd1",
+    "epistemics/studies/premises.py": "04755b2e3188a1e613c31f5145babf3b24f6980787163db3a8079919e697da5c"
+  }
+}

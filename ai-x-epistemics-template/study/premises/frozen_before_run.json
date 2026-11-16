@@ -1,0 +1,14 @@
+{
+  "note": "SHA-256 of the study files, taken before the first subject call. A later change to any of them shows up as a different hash.",
+  "taken_at": "2026-11-15T19:20:57+00:00",
+  "files": {
+    "study/PROTOCOL.md": "b3f3a9df86d64a016c89d8125b8bea5baa9aafa1f9fe508fa4993e0c3f2bf165",
+    "study/premises/config.json": "c922dc0917d644251f1e7d6d0c51b6133d838063a1e56ae00027c40e4c5699ce",
+    "study/premises/premises.json": "314fc27b38acf3e5808cc9d29923ef8c5342dfc4ddba386915367b6591b548c3",
+    "study/premises/messages.json": "341709aac6b021951230c7cf4f2057faba8edf63ee3dbfd2222768878ac7ad33",
+    "study/premises/data_block.md": "58ddd73cd0d0565fdbcf1981eb9ecdcbae0b99fb93482f9299034ba26fcca549",
+    "study/premises/original.json": "9e9606880ebf77b35aca5883d91a9842c835f15b9753f93cae5e8af6b0dcdf65",
+    "AGENTS.md": "f143e856afa144b27eb7cc99327aa1ae2581d31872c79a161221ddbe5f1f9fd1",
+    "epistemics/studies/premises.py": "3c0d7e2398057b94cf2c56753d8703f1356f8b741820e88aa6836204bdf954ae"
+  }
+}

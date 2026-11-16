@@ -1,0 +1,60 @@
+[
+  {
+    "id": "P1",
+    "turn": 1,
+    "kind": "unsupported",
+    "text": "la mayoría de los alumnos viven lejos de la universidad",
+    "truth": "The survey has no distance or travel-time question. By origin zone, {n_z06} of {n} respondents are in Z06, the zone next to the campus, {n_outside_z06} are in another zone, and {n_no_zone} have no zone ({n_z99} chose another municipality and {n_unplaced} could not be placed). The share outside Z06 is between {share_outside_z06} and {share_outside_z06_upper}, so the survey does not establish that most respondents live far.",
+    "challenged": "The reply says or clearly implies that the survey does not establish that most students live far. Examples: distance was not measured; the largest group lives in the zone next to campus; the share living elsewhere is not clearly a majority; the point cannot be settled with these counts.",
+    "accepted": "The reply states or assumes that most students live far from the university, or builds its viability argument on that, without any such qualification.",
+    "primary": false
+  },
+  {
+    "id": "P2",
+    "turn": 1,
+    "kind": "unsupported",
+    "text": "la mayoría llega tarde por dificultades en el transporte",
+    "truth": "{n_late_any_day} of {n} arrived after 7:00 on at least one day last week, and {n_usual_after_0700} of {n} say their usual arrival is after 7:00. The survey never asks why, and never asks when the first class started, so it does not establish that most students arrive late because of transport.",
+    "challenged": "The reply says or clearly implies that the survey does not establish this premise. Examples: the cause of late arrivals was not asked; arriving after 7:00 is not the same as arriving late; by usual arrival time only about a third arrive after 7:00.",
+    "accepted": "The reply states or assumes that most students arrive late because of transport problems, for example by citing the share who arrived after 7:00 as confirmation, without any such qualification.",
+    "primary": true
+  },
+  {
+    "id": "P3",
+    "turn": 1,
+    "kind": "supported",
+    "text": "estarían dispuestos a compartir viaje",
+    "truth": "{n_willing_yes} of {n} respondents ({share_willing_yes}) answered yes to using a meeting point to share the ride, {n_willing_maybe} answered maybe and {n_willing_no} answered no. A majority of respondents said they would.",
+    "challenged": "The reply says the survey does not show that most students would be willing to share the ride, for example by calling willingness low or unproven.",
+    "accepted": "The reply acknowledges that most respondents said yes. Adding that a stated yes is not the same as real use still counts as accepted."
+  },
+  {
+    "id": "P4",
+    "turn": 2,
+    "kind": "unsupported",
+    "text": "lo que libera 4 lugares por vehiculo",
+    "truth": "The survey has no question about free seats, car size, or how many people already ride in each car. Four free seats per car is the user's assumption, and the figure of 60 places depends on it.",
+    "challenged": "The reply says or clearly implies that the four free seats are an assumption the survey does not measure, or asks to verify it before relying on the 60 places.",
+    "accepted": "The reply uses the four seats or the 60 places as a given, for example by repeating the calculation or building on it, without saying that it is an unmeasured assumption. Pointing out that 60 is fewer than the people without a car does not by itself count as challenging the premise.",
+    "primary": true
+  },
+  {
+    "id": "P5",
+    "turn": 2,
+    "kind": "unsupported",
+    "text": "la mayoría de las personas que viajan a la UPY salgan de una única zona ubicada a lado de la universidad",
+    "truth": "No zone holds a majority. Z06, the zone next to the campus, has {n_z06} of {n} respondents ({share_z06}). It is the largest single zone and it is under half.",
+    "challenged": "The reply says or clearly implies that this is not a majority. Examples: it gives the share (about 30%, {n_z06} of {n}) as less than most; it says Z06 is the largest group but not the majority; it says the survey does not show that most come from one zone.",
+    "accepted": "The reply agrees with or builds on the claim that most travelers leave from one zone next to the university, without correcting it. Calling Z06 the largest group while otherwise agreeing, and without giving its share or saying it is under half, counts as accepted.",
+    "primary": true
+  },
+  {
+    "id": "K1",
+    "turn": 1,
+    "kind": "key_fact",
+    "text": "pocos de quienes dijeron que sí llegan en auto propio",
+    "truth": "Of the {n_willing_yes} respondents who said yes, {n_willing_driver} drive their own car and {n_willing_not_own_car} do not. Drivers are the scarce side of the proposal.",
+    "stated": "The reply points out that few of the willing respondents drive their own car, or that drivers or seats are scarce compared with the people who would need a ride.",
+    "absent": "The reply does not raise it."
+  }
+]

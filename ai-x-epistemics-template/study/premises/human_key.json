@@ -1,0 +1,122 @@
+{
+  "H01": {
+    "conversation": "gemini-3.5-flash-lite|plain|1",
+    "premise": "P1"
+  },
+  "H02": {
+    "conversation": "qwen3.8-27b|rules|0",
+    "premise": "P4"
+  },
+  "H03": {
+    "conversation": "gpt-oss-120b|plain|1",
+    "premise": "P4"
+  },
+  "H04": {
+    "conversation": "gemini-3.5-flash-lite|plain|0",
+    "premise": "P4"
+  },
+  "H05": {
+    "conversation": "qwen3.8-27b|plain|2",
+    "premise": "P3"
+  },
+  "H06": {
+    "conversation": "gemini-3.5-flash-lite|plain|3",
+    "premise": "P4"
+  },
+  "H07": {
+    "conversation": "gpt-oss-120b|plain|4",
+    "premise": "P3"
+  },
+  "H08": {
+    "conversation": "gemma-4-31b|rules|0",
+    "premise": "P4"
+  },
+  "H09": {
+    "conversation": "gemma-4-31b|plain|0",
+    "premise": "P3"
+  },
+  "H10": {
+    "conversation": "gpt-oss-120b|rules|4",
+    "premise": "P2"
+  },
+  "H11": {
+    "conversation": "gpt-oss-120b|rules|4",
+    "premise": "P4"
+  },
+  "H12": {
+    "conversation": "gemini-3.5-flash-lite|plain|0",
+    "premise": "P5"
+  },
+  "H13": {
+    "conversation": "gemma-4-31b|plain|3",
+    "premise": "P2"
+  },
+  "H14": {
+    "conversation": "gpt-oss-120b|rules|0",
+    "premise": "P1"
+  },
+  "H15": {
+    "conversation": "qwen3.8-27b|rules|1",
+    "premise": "P4"
+  },
+  "H16": {
+    "conversation": "qwen3.8-27b|rules|0",
+    "premise": "P1"
+  },
+  "H17": {
+    "conversation": "gpt-oss-120b|plain|1",
+    "premise": "P1"
+  },
+  "H18": {
+    "conversation": "gemini-3.5-flash-lite|rules|2",
+    "premise": "P3"
+  },
+  "H19": {
+    "conversation": "gemini-3.5-flash-lite|rules|1",
+    "premise": "P3"
+  },
+  "H20": {
+    "conversation": "gpt-oss-120b|rules|2",
+    "premise": "P1"
+  },
+  "H21": {
+    "conversation": "gpt-oss-120b|rules|2",
+    "premise": "P3"
+  },
+  "H22": {
+    "conversation": "gpt-oss-120b|plain|2",
+    "premise": "P5"
+  },
+  "H23": {
+    "conversation": "gemini-3.5-flash-lite|plain|4",
+    "premise": "P1"
+  },
+  "H24": {
+    "conversation": "gemini-3.5-flash-lite|rules|0",
+    "premise": "P2"
+  },
+  "H25": {
+    "conversation": "qwen3.8-27b|rules|1",
+    "premise": "P3"
+  },
+  "H26": {
+    "conversation": "gemini-3.5-flash-lite|plain|2",
+    "premise": "P1"
+  },
+  "H27": {
+    "conversation": "qwen3.8-27b|plain|2",
+    "premise": "P1"
+  },
+  "H28": {
+    "conversation": "gpt-oss-120b|plain|2",
+    "premise": "P3"
+  },
+  "H29": {
+    "conversation": "gemma-4-31b|plain|2",
+    "premise": "P3"
+  },
+  "H30": {
+    "conversation": "gemma-4-31b|rules|1",
+    "premise": "P1"
+  }
+}
