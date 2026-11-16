@@ -12,7 +12,9 @@ The figures in `report/REPORT.md` come from `results/premises.json` and `results
 | --- | --- | --- |
 | Premise study: code, inputs, tests | `epistemics/studies/premises.py`, `study/premises/`, `tests/test_premises.py` | Sprint, 15 November 2026 |
 | Premise study result | `results/premises.json`; `results/premises_fixture.json` is a scripted offline demo, not a finding | Sprint |
-| Evidence notes for the premise study | `evidence/sesion-asistente.md`, `evidence/lista-de-lectura-sprint.md` | Sprint |
+| Evidence notes for the premise study | `evidence/sesion-asistente.md`, `evidence/lista-de-lectura-sprint.md`, `evidence/ejemplos-de-respuestas.md` | Sprint |
+| Report tools | `report/tools/` turns the result files into `report/REPORT.md`, `report/claims.json` and the submission PDF | Sprint |
+| Submitted reports | `report/submission.pdf` is the first submission; `report/submission-final.pdf` is this version | Sprint |
 | Join of the survey to the macrozones, and its tests | `epistemics/studies/commute.py`, `tests/test_commute.py` | Sprint, 13 to 15 November 2026 |
 | Result files | `results/commute.json`, and `results/commute_first_submission.json` for the first submitted version | Sprint |
 | Protocol, report, claims, evidence notes | `study/PROTOCOL.md`, `report/`, `evidence/encuesta-traslado-upy.md`, `evidence/macrozonas-upy.md` | Sprint |
